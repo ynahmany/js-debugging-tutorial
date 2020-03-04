@@ -5,4 +5,4 @@ Debug JS like a the pro you are!
 
 - [ ] add src react app with redux for advanced debugging.
 
- - [x] add node js hook
+ - [ ] add node js hook
