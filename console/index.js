@@ -31,6 +31,13 @@ function _clear() {
     timeLoop();
     alert('You are about to clear the console, please approve');
     console.clear();
-    grouping();
-    
+    grouping();   
+}
+function assert(number) {
+    // TODO: add input and variable for user to enter.
+    console.assert(DEBUG_STOP_POINT === parseInt(number, 10), 'The number you passed is not a valid one');
+    console.log('if the assertion successed, you will not see any message');
+}
+function table() {
+    console.table(['yossi', 'boged']);
 }
