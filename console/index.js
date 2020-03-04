@@ -1,4 +1,4 @@
-const LOOP_ITERATION_NUMBER = 1000000;
+const LOOP_ITERATION_NUMBER = 100000;
 const DEBUG_STOP_POINT = 1337;
 
 function debuggerLoop() {
@@ -9,9 +9,28 @@ function debuggerLoop() {
         }
     }
 }
-function simpleLog() {
-    console.log('hello user');
+function timeLoop() {
+    console.time('loop');
+    for(let i=0; i < LOOP_ITERATION_NUMBER; i++) {
+    }
+    console.timeEnd('loop');
 }
-
-// simpleLog();
-// debuggerLoop();
+function grouping() {
+    console.group('grouping');
+    timeLoop();
+    const s = 'new string';
+    const i = 1337;
+    console.log('new string and i are ', s, i);
+    let str = '';
+    console.log('str has been declared', str);
+    str = 'new string for str!!!';
+    console.log('str has been modified', str);
+    console.groupEnd('grouping');
+}
+function _clear() {
+    timeLoop();
+    alert('You are about to clear the console, please approve');
+    console.clear();
+    grouping();
+    
+}
