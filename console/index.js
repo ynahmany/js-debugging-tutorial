@@ -38,6 +38,41 @@ function assert(number) {
     console.assert(DEBUG_STOP_POINT === parseInt(number, 10), 'The number you passed is not a valid one');
     console.log('if the assertion successed, you will not see any message');
 }
+function SithLord(name, originalName) {
+    this.name = name;
+    this.originalName = originalName;
+}
+const vader = new SithLord('Darth Vader', 'Anakin Skywalker');
 function table() {
-    console.table(['yossi', 'boged']);
+    console.table(['Darth Vader', 'Darth Bane', 'Freedon Nadd', 'Ulic Qel-Droma', 'Marka Ragnos']);
+    console.log('const vader = new SithLord()');
+    console.table(vader);
+}
+function count() {
+    console.count();
+    return 'I love JS!';
+}
+function severities() {
+    console.group('severities');
+    console.info('just an information');
+    console.warn('this is your final warning');
+    console.error('some error - oooo - real bad one');
+    console.groupEnd('severities');
+}
+function objectView() {
+    console.group('Sith');
+    console.log(vader);
+    console.dir(vader);
+    console.groupEnd('Sith');
+    console.group('location');
+    console.log(document.location);
+    console.dir(document.location);
+    console.groupEnd('location');
+}
+
+function trace() {
+    function son() {
+        console.trace();
+    }
+    son();
 }
