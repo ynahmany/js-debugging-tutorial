@@ -1,1 +1,3 @@
-#### Hover effect
+#### pseudo elements effect
+
+![](pseudoElements.gif)
