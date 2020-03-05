@@ -8,7 +8,8 @@ Debug JS like a the pro you are!
 - [ ] add src react app with redux for advanced debugging.
 
  - [ ] add node js hook
- - [x] adding console debugg 
+ - [x] adding console debugging
+ - [ ] 
 
  ## Running demos
 
