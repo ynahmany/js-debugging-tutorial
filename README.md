@@ -1,6 +1,8 @@
 # js-debugging-tutorial
 Debug JS like a the pro you are!
 
+![](debugjs.jpg)
+
 - [x] add folder for each example with the proper code
 
 - [ ] add src react app with redux for advanced debugging.
