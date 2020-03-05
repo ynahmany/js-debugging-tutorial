@@ -2,7 +2,8 @@
 ### Chrome Snippets tool
 It is possible to create, save and run snippets on every page instead of manually loading it each time.
 example: 
- <!--TODO: add gif here  -->
+![](snippet.png)
+
 #### Copy command
 using the `copy` command on the consile, you can easily copy data directly to your clipboard.
 
