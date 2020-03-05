@@ -2,7 +2,7 @@
 
 ![](pseudoElements.gif)
 
-#### Breakpoints on tree modification.
+#### DOM Breakpoints on tree modification.
 
 ![](breakpointSubtree.gif)
 
