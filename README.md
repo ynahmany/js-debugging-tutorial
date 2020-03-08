@@ -5,11 +5,10 @@ Debug JS like a the pro you are!
 
 - [x] add folder for each example with the proper code
 
-- [ ] add src react app with redux for advanced debugging.
-
- - [ ] add node js hook
- - [x] adding console debugging
- - [ ] 
+- [x] add src react app with redux for advanced debugging.
+- [x] adding console debugging
+- [ ] add node js hook
+- [ ] add Redux section
 
  ## Running demos
 
