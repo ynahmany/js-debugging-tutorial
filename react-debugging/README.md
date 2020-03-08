@@ -1,4 +1,11 @@
 # React debugging tutorial
+### Running simple react app
+
+```
+cd app
+yarn start
+```
+
 Simple component view
 
 ![](react-debugger-1.png)
